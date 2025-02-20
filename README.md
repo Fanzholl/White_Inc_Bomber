@@ -207,8 +207,8 @@ White_Inc_Bomber/
 ## 👨‍💻 Автор проекта
 **Митрий**
 - [GitHub](https://github.com/Fanzholl)
-- [LinkedIn](#)
-- Email: example@example.com
+- [LinkedIn](https://www.linkedin.com/in/mitriy-fedorov-885620345/)
+- Email: fanzholl@yandex.ru
 
 ---
 
