@@ -7,7 +7,7 @@ import revengeRouter from "./routers/Revenge.ts";
 import { getRecaptchaResponse } from "./captcha/getAdamasCaptcha.js";
 
 const app = Express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
