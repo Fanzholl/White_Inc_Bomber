@@ -1,0 +1,107 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Next.js
+.next/
+out/
+
+# React Native
+.expo/
+*.expo/
+
+# Compiled source
+lib/
+coverage/
+*.map
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Test output
+jest-html-reporters-*.html
+test-results/
+coverage/
+*.lcov
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# MacOS-specific files
+.AppleDouble
+.LSOverride
+
+# Linux-specific files
+*~
+
+# Windows-specific files
+Desktop.ini
+$RECYCLE.BIN/
+
+# Optional NPM cache directory
+.npm/
+
+# ESLint cache
+.eslintcache
+
+# Prettier
+.prettiercache
+
+# Binaries
+*.exe
+*.out
+*.app
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Coverage reports
+coverage/
+lcov-report/
+
+# Storybook build outputs
+.out/
+storybook-static/
+
+# Custom logs
+*.log
+logs/**/*.log
+
+# Local serverless configuration
+.serverless/
+
+# Miscellaneous
+*.tgz
+*.zip
+*.tar
+*.tar.gz
+
+# BEM JSON (if applicable)
+*.bemjson.js
