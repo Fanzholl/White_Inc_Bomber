@@ -36,7 +36,7 @@
 ### ⚙️ Настройка прокси
 
 1. **Добавление прокси-сервера:**
-   В файле `config/proxyList.json` добавьте новые прокси-серверы в формате:
+   В файле `config/proxyList.json` добавьте новые прокси-серверы в свой прокси-файл или в массив проксей в Revenge.ts (routers) в формате:
    ```json
    [
      "http://username:password@proxyserver1:port",
@@ -88,12 +88,12 @@
 
 1. **Клонируйте репозиторий с помощью команды:**
    ```bash
-   git clone https://github.com/yourusername/bombapis.git
+   git clone https://github.com/Fanzholl/White_Inc_Bomber.git
    ```
 
 2. **Перейдите в директорию проекта:**
    ```bash
-   cd bombapis
+   cd White_Inc_Bomber
    ```
 
 3. **Установите все зависимости проекта с помощью менеджера пакетов npm:**
@@ -101,17 +101,14 @@
    npm install
    ```
 
-4. **Запустите скрипт для проверки установки:**
-   ```bash
-   npm run test
-   ```
+4. **Откройте http://localhost: Ваш порт || 8080**
 
 ## ⚙️ Использование
 
 ### Изменение номера телефона
 Чтобы установить номер телефона, используйте следующую команду:
 ```ts
-import { changePhone } from './bombapis';
+import { changePhone } from './API's/api's.ts';
 
 changePhone('+79891174756');
 ```
@@ -120,7 +117,7 @@ changePhone('+79891174756');
 ### Отправка SMS через подключённые API
 Для отправки SMS на все доступные сервисы используйте:
 ```ts
-import { bombapis } from './bombapis';
+import { bombapis } from './API's/api's.ts';
 
 bombapis.APIs.forEach(api => {
   // Отправка SMS на каждый сервис через API
@@ -131,7 +128,7 @@ bombapis.APIs.forEach(api => {
 ### Форматирование номера телефона
 Функция для приведения номера телефона к единому формату:
 ```ts
-import { formatePhone } from './bombapis';
+import { formatePhone } from './API's/api's.ts';
 
 const formattedPhone = formatePhone('+79891174756');
 console.log(formattedPhone); // +7(989)-117-47-56
@@ -140,7 +137,7 @@ console.log(formattedPhone); // +7(989)-117-47-56
 ### Обрезка номера до основного формата
 Используйте для удаления лишних символов:
 ```ts
-import { slicePhone } from './bombapis';
+import { slicePhone } from './API's/api's.ts';
 
 const slicedPhone = slicePhone('+79891174756');
 console.log(slicedPhone); // 9891174756
@@ -148,7 +145,7 @@ console.log(slicedPhone); // 9891174756
 
 ### Массовая отправка сообщений на различные сервисы
 ```ts
-import { bombapis } from './bombapis';
+import { bombapis } from './API's/api's.ts';
 
 function sendMassSMS(message) {
   bombapis.APIs.forEach(api => {
