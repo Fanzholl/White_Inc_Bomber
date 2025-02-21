@@ -36,7 +36,7 @@
 ### ⚙️ Настройка прокси
 
 1. **Добавление прокси-сервера:**
-   В файле `config/proxyList.json` добавьте новые прокси-серверы в свой прокси-файл или в массив проксей в Revenge.ts (routers) в формате:
+   В файле `config/proxyList.json` добавьте новые прокси-серверы в свой прокси-файл или в массив проксей в `routers/Revenge.ts` в формате:
    ```json
    [
      "http://username:password@proxyserver1:port",
