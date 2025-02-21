@@ -206,6 +206,7 @@ White_Inc_Bomber/
 - [GitHub](https://github.com/Fanzholl)
 - [LinkedIn](https://www.linkedin.com/in/mitriy-fedorov-885620345/)
 - Email: fanzholl@yandex.ru
+- Telegram: @blacksunder
 
 ---
 
