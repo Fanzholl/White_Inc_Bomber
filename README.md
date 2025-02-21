@@ -1,5 +1,4 @@
 # White_Inc_Bomber – Универсальный SMS API Sender
-White_Inc_Bomber - Универсальный SMS API Sender
 
 ## 📖 Описание
 
